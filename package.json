@@ -48,7 +48,7 @@
     "generate-parser": "node ./dist/generate-custom-parser.js"
   },
   "engines": {
-    "node": ">=8.10"
+    "node": ">=10"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -156,18 +156,6 @@
       "remark .",
       "prettier --write",
       "git add"
-    ]
-  },
-  "greenkeeper": {
-    "ignore": [
-      "jasmine-core",
-      "karma-jasmine",
-      "rollup-plugin-node-resolve",
-      "eslint-import-resolver-babel-module",
-      "jest",
-      "jest-cli",
-      "babel-jest",
-      "karma"
     ]
   }
 }
